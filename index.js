@@ -7,8 +7,8 @@ class SDate {
       this.time = new Date()
     }
 
-    this.dateString = this.time.toLocaleDateString('id-ID', { timezone: timezone })
-    this.timeString = this.time.toLocaleTimeString('id-ID', { timezone: timezone })
+    this.dateString = this.time.toLocaleDateString('en-US', { timezone: timezone })
+    this.timeString = this.time.toLocaleTimeString('en-US', { timezone: timezone })
   }
 
   getHour() {
