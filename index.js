@@ -35,3 +35,5 @@ class SDate {
     return Number.parseInt(n)
   }
 }
+
+module.exports = SDate
