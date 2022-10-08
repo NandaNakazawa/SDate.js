@@ -4,7 +4,7 @@ class SDate {
     if (parse) {
       this.time = new Date(parse)
     } else {
-      this.time = new Date(parse)
+      this.time = new Date()
     }
 
     this.dateString = this.time.toLocaleDateString('id-ID', { timezone: timezone })
@@ -35,5 +35,3 @@ class SDate {
     return Number.parseInt(n)
   }
 }
-
-module.exports = SDate
